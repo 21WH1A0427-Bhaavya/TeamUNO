@@ -1,11 +1,93 @@
-                                             Insider Threat Detection Using User Behavior Analytics (UBA) 
+Project Name
+A versatile repository for anomaly detection and dashboard visualization using React and Python.
 
+Table of Contents
+About
 
+Features
 
-This project is a backend system built using Python where the `app.py` file acts as the central brain that loads the `enhanced_data.csv` dataset, performs preprocessing such as cleaning, filtering, and feature extraction, and then exposes endpoints through which the frontend can interact, making it possible to send requests and receive results in JSON format; the dataset located in the `data/` folder represents enhanced information that can be used for tasks like anomaly detection, predictive modeling, or general analysis, and the `requirements.txt` ensures that all dependencies such as Flask (or FastAPI), pandas, scikit-learn, and numpy are installed consistently across environments, thereby allowing smooth execution; the flow of the project begins with the frontend sending a request, which is received by the backend server (`app.py`), then the server processes the input, fetches or manipulates the dataset as required, possibly applies an ML model such as Isolation Forest or Autoencoder for anomaly detection, and finally returns the processed result or prediction back to the frontend in a structured response that can be visualized in dashboards, graphs, or alerts; this single-direction data pipeline — from frontend → backend → dataset/model → backend → frontend — makes the architecture modular and scalable, where the backend acts as the mediator between user interaction and machine intelligence, ensuring that every request is handled efficiently and securely; in addition, this project demonstrates the integration of machine learning with a lightweight backend service, making it suitable for hackathons, prototype development, or production deployment, and it highlights how real-world datasets can be connected with APIs to deliver intelligent services seamlessly, thereby offering a practical foundation for further extension into advanced analytics, visualization, and anomaly detection systems.
+Folder Structure
 
-DASHBOARD DEMO:
+Setup & Installation
 
-![1](https://github.com/user-attachments/assets/8b70df70-a6e4-4376-8faa-40315d29a132)
-![2](https://github.com/user-attachments/assets/59711f41-0506-4b19-8e69-5a8e70b4bc64)
-![3](https://github.com/user-attachments/assets/2bdce7b3-a77b-47d4-8ecc-8dfcd051ebb3)
+Usage
+
+File Descriptions
+
+Contributing
+
+License
+
+Contact
+
+About
+This repository integrates a frontend built with React for alert visualization, user profiling, and timeline monitoring, along with Python-based anomaly detection algorithms. It is suitable for research, prototyping, or building insider threat detection dashboards.
+
+Features
+Alert and user profile dashboards (React)
+
+Interactive timeline visualization (React)
+
+Jupyter notebooks for machine learning and RL-based anomaly detection (Python)
+
+Deep learning model using autoencoders (Python)
+
+CSV data for analytics and experiments
+
+Streamable anomaly ZIP for sharing and storage
+
+Folder Structure
+text
+root/
+├── autoencoder/
+│   └── predict.py
+├── AlertsTable.jsx
+├── AnomalyStream.zip
+├── InsiderThreath.ipynb
+├── README.md
+├── Sidebar.jsx
+├── Timeline.jsx
+├── UserProfile.jsx
+├── XGBoost+RL.ipynb
+├── enhanced data.csv
+Setup & Installation
+Frontend (React)
+
+Ensure Node.js and npm/yarn are installed.
+
+Clone the repository and install dependencies:
+
+text
+git clone <repo-url>
+cd <project-folder>
+npm install
+npm run start
+Backend/Notebooks (Python)
+
+Install Python >= 3.7 and Jupyter Notebook.
+
+Navigate to the notebook folder and launch your preferred notebook.
+
+Other Files
+
+Unzip AnomalyStream.zip for additional resources.
+
+Usage
+Run the React frontend to explore data visualizations and dashboards.
+
+Use Jupyter notebooks for machine learning analysis and training with enhanced data (enhanced data.csv).
+
+Python scripts and notebooks support anomaly detection using RL and autoencoders.
+
+File Descriptions
+File/Folder	Type	Purpose
+autoencoder/	Python	Deep learning model scripts; includes prediction code
+AlertsTable.jsx	React	Displays alert tables for the dashboard
+AnomalyStream.zip	ZIP Archive	Additional sample data or models
+InsiderThreath.ipynb	Jupyter	Notebook for insider threat analysis
+README.md	Markdown	Project documentation
+Sidebar.jsx	React	UI sidebar navigation
+Timeline.jsx	React	Timeline components for event history
+UserProfile.jsx	React	User profile information/table
+XGBoost+RL.ipynb	Jupyter	Machine learning notebook (XGBoost + RL integration)
+enhanced data.csv	Data	Enhanced dataset for training and analytics
