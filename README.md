@@ -4,19 +4,6 @@ A versatile repository for anomaly detection and dashboard visualization using *
 
 ---
 
-## 📑 Table of Contents
-- [About](#about)
-- [Features](#features)
-- [Folder Structure](#folder-structure)
-- [Setup & Installation](#setup--installation)
-- [Usage](#usage)
-- [File Descriptions](#file-descriptions)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
-
----
-
 ## 🔍 About
 This repository integrates a **React-based frontend** for alert visualization, user profiling, and timeline monitoring, with **Python-based anomaly detection algorithms**.  
 It is designed for:
