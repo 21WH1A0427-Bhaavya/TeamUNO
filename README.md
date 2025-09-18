@@ -1,46 +1,43 @@
-Project Name
-A versatile repository for anomaly detection and dashboard visualization using React and Python.
+# Anomaly Detection & Dashboard Visualization
 
-Table of Contents
-About
+A versatile repository for anomaly detection and dashboard visualization using **React** (frontend) and **Python** (backend/notebooks).
 
-Features
+---
 
-Folder Structure
+## 📑 Table of Contents
+- [About](#about)
+- [Features](#features)
+- [Folder Structure](#folder-structure)
+- [Setup & Installation](#setup--installation)
+- [Usage](#usage)
+- [File Descriptions](#file-descriptions)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
-Setup & Installation
+---
 
-Usage
+## 🔍 About
+This repository integrates a **React-based frontend** for alert visualization, user profiling, and timeline monitoring, with **Python-based anomaly detection algorithms**.  
+It is designed for:
+- Research  
+- Prototyping  
+- Building **insider threat detection dashboards**
 
-File Descriptions
+---
 
-Contributing
+## 🚀 Features
+- 📊 **Alert and User Profile Dashboards** (React)  
+- ⏳ **Interactive Timeline Visualization** (React)  
+- 📓 **Jupyter Notebooks** for ML & RL-based anomaly detection (Python)  
+- 🤖 **Deep Learning (Autoencoders)** for anomaly detection  
+- 📂 **CSV Dataset** for analytics & experiments  
+- 📦 **Streamable Anomaly ZIP** for additional resources  
 
-License
-
-Contact
-
-About
-This repository integrates a frontend built with React for alert visualization, user profiling, and timeline monitoring, along with Python-based anomaly detection algorithms. It is suitable for research, prototyping, or building insider threat detection dashboards.
-
-Features
-Alert and user profile dashboards (React)
-
-Interactive timeline visualization (React)
-
-Jupyter notebooks for machine learning and RL-based anomaly detection (Python)
-
-Deep learning model using autoencoders (Python)
-
-CSV data for analytics and experiments
-
-Streamable anomaly ZIP for sharing and storage
-
-Folder Structure
-text
+---
 root/
 ├── autoencoder/
-│   └── predict.py
+│ └── predict.py
 ├── AlertsTable.jsx
 ├── AnomalyStream.zip
 ├── InsiderThreath.ipynb
@@ -50,36 +47,23 @@ root/
 ├── UserProfile.jsx
 ├── XGBoost+RL.ipynb
 ├── enhanced data.csv
-Setup & Installation
-Frontend (React)
 
-Ensure Node.js and npm/yarn are installed.
 
-Clone the repository and install dependencies:
+---
 
-text
-git clone <repo-url>
-cd <project-folder>
-npm install
-npm run start
-Backend/Notebooks (Python)
+## ⚙️ Setup & Installation
 
-Install Python >= 3.7 and Jupyter Notebook.
-
-Navigate to the notebook folder and launch your preferred notebook.
-
-Other Files
-
-Unzip AnomalyStream.zip for additional resources.
-
-Usage
-Run the React frontend to explore data visualizations and dashboards.
-
-Use Jupyter notebooks for machine learning analysis and training with enhanced data (enhanced data.csv).
-
-Python scripts and notebooks support anomaly detection using RL and autoencoders.
-
-File Descriptions
+### Frontend (React)
+1. Ensure **Node.js** and **npm/yarn** are installed.  
+2. Clone the repository and install dependencies:
+   ```bash
+   git clone <repo-url>
+   cd <project-folder>
+   npm install
+   npm run start
+Run it in Jupyter Notebook/colab/kaggle
+   
+📘 File Descriptions
 File/Folder	Type	Purpose
 autoencoder/	Python	Deep learning model scripts; includes prediction code
 AlertsTable.jsx	React	Displays alert tables for the dashboard
@@ -88,6 +72,8 @@ InsiderThreath.ipynb	Jupyter	Notebook for insider threat analysis
 README.md	Markdown	Project documentation
 Sidebar.jsx	React	UI sidebar navigation
 Timeline.jsx	React	Timeline components for event history
-UserProfile.jsx	React	User profile information/table
+UserProfile.jsx	React	User profile visualization/table
 XGBoost+RL.ipynb	Jupyter	Machine learning notebook (XGBoost + RL integration)
-enhanced data.csv	Data	Enhanced dataset for training and analytics
+enhanced data.csv	Data	Enhanced dataset for training & analytics
+
+## 📂 Folder Structure
