@@ -75,5 +75,3 @@ Timeline.jsx	React	Timeline components for event history
 UserProfile.jsx	React	User profile visualization/table
 XGBoost+RL.ipynb	Jupyter	Machine learning notebook (XGBoost + RL integration)
 enhanced data.csv	Data	Enhanced dataset for training & analytics
-
-## 📂 Folder Structure
